@@ -12,6 +12,8 @@ document.body.appendChild(pattern.canvas());
 }
 background();
 window.addEventListener('resize', function() {
+  var canvas = document.getElementsByTagName('canvas');
+  document.body.removeChild(canvas[0]);
   background();
 });
 
