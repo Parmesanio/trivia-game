@@ -1,4 +1,5 @@
 //Background - http://qrohlf.com/trianglify/
+function background() {
 var pattern = Trianglify({
   width: window.innerWidth,
   height: window.innerHeight,
@@ -8,6 +9,11 @@ var pattern = Trianglify({
   y_colors: 'match_x'
 });
 document.body.appendChild(pattern.canvas());
+}
+background();
+window.addEventListener('resize', function() {
+  background();
+});
 
 window.onload = function () {
   // Check browser support
