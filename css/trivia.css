@@ -34,12 +34,12 @@ body {
   height: 480px;
   height: 100vh;
 }
-  h1 {
-  font-size: 1.2em;
-}
-h2 {
+  h1,h2 {
   margin: 0.5em;
 }
+	#question {
+	font-size: 1.4em;
+	}
   h4 {
     margin: 1em 0 0 0;
     text-align: left;
@@ -82,12 +82,12 @@ h2 {
     transition: background 0.350s;
 }
   #play {
-    padding: 40px;
-    font-size: 1em;
+    padding: 2em;
+    font-size: 2em;
     font-weight: bold;
     width: inherit;
     position: inherit;
-    margin: 2em;
+    margin: 1em;
   }
   #scoreLabel, #score {
     display: none;
@@ -140,6 +140,9 @@ h2 {
     width: 400px;
     width: 80vw;
 }
+	p {
+		font-size: 1.2em;	
+	}
 
 }
 @media only screen and (min-width: 630px) {
