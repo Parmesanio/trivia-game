@@ -53,7 +53,6 @@ if (typeof(Storage) !== "undefined") {
       var data = JSON.parse(http.response); //JSON.parse turns data into an object we can use.
       function newtrivia() {
           document.getElementById("question").innerHTML = data.results[j].question;
-          console.log(data.results[j]);
           arr.push(data.results[j].correct_answer);
           data.results[j].incorrect_answers.forEach(function(output){
             arr.push(output);
