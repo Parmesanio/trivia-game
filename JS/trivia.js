@@ -15,7 +15,7 @@ if (typeof(Storage) !== "undefined") {
   // Retrieve
   var prevScore = localStorage.getItem("score");
   var highScore = localStorage.getItem("highScore");
-  if (highScore == null && prevScore == null) {
+  if (highScore == null || prevScore == null) {
     document.getElementById("prev-score").innerHTML = "Previous Score: 0";
     document.getElementById("high-score").innerHTML = "High Score: 0";
   }else {
