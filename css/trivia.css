@@ -162,17 +162,14 @@ body {
     margin: 0.25em;
   }
   #play {
-    font-size: 1.5em;
-    height: 200px;
-    width: 6.5em;
-    margin: 1em;
+		
   }
 
 }
 @media only screen and (min-width: 1024px) {
   #play {
-    font-size: 2em;
-    width: 5.5em;
+    margin: 0.5em;
+		padding: 1.5em;
   }
   section {
     width: 768px;
