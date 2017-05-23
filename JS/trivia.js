@@ -19,7 +19,7 @@ window.addEventListener('resize', function() {
 
 window.onload = function () {
   // Check browser support
-if (typeof(Storage) !== "undefined" && window.location = "https://parmesanio.github.io/trivia-game/") {
+if (typeof(Storage) !== "undefined" && window.location.href) {
   // Retrieve
   var prevScore = localStorage.getItem("score");
   var highScore = localStorage.getItem("highScore");
