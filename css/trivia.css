@@ -83,7 +83,6 @@ body {
 }
   #play {
     padding: 2em;
-    font-size: 2em;
     font-weight: bold;
     width: inherit;
     position: inherit;
@@ -140,9 +139,12 @@ body {
     width: 400px;
     width: 80vw;
 }
-	p {
-		font-size: 1.2em;	
-	}
+  #play {
+   font-size: 2em;
+}
+  p {
+    font-size: 1.2em;	
+}
 
 }
 @media only screen and (min-width: 630px) {
