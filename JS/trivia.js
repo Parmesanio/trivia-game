@@ -5,7 +5,7 @@ var pattern = Trianglify({
   height: window.innerHeight,
   cell_size: 40,
   variance: 0.75,
-  x_colors: 'YlGnBu',
+  x_colors: 'YlOrRd',
   y_colors: 'match_x'
 });
 document.body.appendChild(pattern.canvas());
